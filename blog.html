@@ -20,6 +20,28 @@
       href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,600;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <style>
+      .embed-responsive {
+        position: relative;
+        display: block;
+        height: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      .embed-responsive .embed-responsive-item,
+      .embed-responsive iframe,
+      .embed-responsive embed,
+      .embed-responsive object,
+      .embed-responsive video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        border: 0;
+      }
+    </style>
   </head>
   <body>
     <!-- <button class="dark-mode-toggle">🌑</button> -->
@@ -143,6 +165,7 @@
         </aside>
         <article class="content" id="wikiArticle">
           <aside>
+          
             <iframe
               width="760"
               height="415"
@@ -221,6 +244,7 @@
               <img
                 src="./assets/img/healthcare-blog1.png?width=800"
                 width="800"
+                class="img-fluid"
               />
             </picture>
           </section>
@@ -335,7 +359,11 @@
                   ./assets/img/healthcare-3.png?width=800?width=800 2x
                 "
               />
-              <img src="./assets/img/healthcare-3.png?width=800" width="800" />
+              <img
+                src="./assets/img/healthcare-3.png?width=800"
+                class="img-fluid"
+                width="800"
+              />
             </picture>
 
             <p>
@@ -364,7 +392,11 @@
                   ./assets/img/rpm-img.png?width=800?width=800 2x
                 "
               />
-              <img src="./assets/img/rpm-img.png?width=800" width="800" />
+              <img
+                src="./assets/img/rpm-img.png?width=800"
+                class="img-fluid"
+                width="800"
+              />
             </picture>
             <p>
               The growing aging of society and the uptick in the variety of
@@ -399,7 +431,11 @@
                   ./assets/img/healthcare-3.png?width=800?width=800 2x
                 "
               />
-              <img src="./assets/img/healthcare-3.png?width=800" width="800" />
+              <img
+                src="./assets/img/healthcare-3.png?width=800"
+                class="img-fluid"
+                width="800"
+              />
             </picture>
             <p>
               Every healthcare provider aims to run his practice effectively.
@@ -410,12 +446,13 @@
           </section>
           <section style="margin-bottom: 20rem"></section>
         </article>
-        <aside class="aside">
+        <aside class="aside other-articles-seaction">
           <h4 class="heading">Other Articles you might Enjoy</h4>
           <div class="card">
             <img
               src="https://images.unsplash.com/photo-1457269315919-3cfc794943cd?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=2c42c1cac3092204f4c1afdca4d44e99"
               alt=""
+              class="img-fluid"
             />
             <div>
               <p class="heading title">The big subtext</p>
@@ -426,6 +463,7 @@
             <img
               src="https://images.unsplash.com/photo-1528640936814-4460bc015292?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=66812b5fda04c80ff762c8a920f562f3"
               alt=""
+              class="img-fluid"
             />
             <div>
               <p class="heading title">The bug subtext</p>
