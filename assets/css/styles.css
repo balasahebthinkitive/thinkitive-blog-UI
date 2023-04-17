@@ -417,7 +417,8 @@ input[type="text"]::placeholder {
 .breadcrumbSection h1 {
   font-style: normal;
   font-weight: 900;
-  font-size: 56px;
+  font-size: 60px;
+  color: #2879c9;
   font-family: "Barlow", sans-serif;
   line-height: 100%;
   letter-spacing: 1px;
@@ -429,8 +430,12 @@ input[type="text"]::placeholder {
   text-align: center;
 }
 
+.author-line a {
+  /* text-decoration: none; */
+  color: #2878c8;
+}
 .breadcrumbSection .info_block ul li a {
-  color: #919eab;
+  color: #000000b2;
   text-decoration: none;
 }
 
