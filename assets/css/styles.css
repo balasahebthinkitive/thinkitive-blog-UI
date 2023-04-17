@@ -205,19 +205,11 @@ a {
   margin-bottom: 0.8rem;
 }
 
-:root {
-  --font: "Inter", sans-serif;
-  --red: #da2535;
-  --grey: #919eab;
-  --black: #292929;
-  --white: #fbfbfb;
-}
-
 /* SEARCH BAR CONTAINER */
 .search-local {
   width: 100%;
   max-width: 75rem;
-  background: var(--white);
+  background: #f9f9f9;
   min-height: 45px;
   height: auto;
   border-right: none;
@@ -233,22 +225,22 @@ a {
   height: 100%;
   width: 100%;
   flex: 1 1 25rem;
-  background: var(--white);
+  background: #f9f9f9;
   display: flex;
   outline: none;
   border: none;
-  color: var(--black);
+  color: #292929;
 }
 
 input[type="text"]::placeholder {
-  color: var(--black);
+  color: #292929;
   font-size: 16px;
   font-family: "Barlow", sans-serif;
 }
 
 /* BUTTON */
 .search-local button {
-  background: var(--grey);
+  background: #919eab;
   border: none;
   border-radius: 0 1rem 1rem 0;
   font-weight: 500;
@@ -287,7 +279,7 @@ input[type="text"]::placeholder {
   .search-local button .search-icon {
     display: block;
     margin-inline: auto;
-    color: var(--white);
+    color: #f9f9f9;
     font-size: 3rem;
   }
 
@@ -298,7 +290,7 @@ input[type="text"]::placeholder {
 
 /* ICON */
 .icon {
-  color: var(--grey);
+  color: #919eab;
   font-size: 1.5rem;
   display: flex;
   align-items: center;
@@ -405,7 +397,7 @@ input[type="text"]::placeholder {
   color: rgba(0, 0, 0, 0.45);
 }
 .breadcrumb li a:nth-last-child(1) {
-  color: var(--black);
+  color: #292929;
   padding: 0.25rem 0;
 }
 
@@ -559,6 +551,9 @@ input[type="text"]::placeholder {
   .blogBanner .blog-post-title {
     margin-top: 2rem;
   }
+  .breadcrumbSection h1 {
+    font-size: 44px;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -570,6 +565,9 @@ input[type="text"]::placeholder {
   }
   .blogBanner .blog-post-title {
     margin-top: 3rem;
+  }
+  .breadcrumbSection h1 {
+    font-size: 32px;
   }
 }
 @media (max-width: 767.98px) {
@@ -593,6 +591,12 @@ input[type="text"]::placeholder {
     font-family: "Barlow", sans-serif;
     line-height: 1.2;
   }
+  .breadcrumbSection h1 {
+    font-size: 28px;
+  }
 }
 @media (max-width: 575.98px) {
+  .breadcrumbSection h1 {
+    font-size: 24px;
+  }
 }
